@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
 		<title>Cynthia & Rizal - <?php echo $lang['title_home'] ?> </title>
 		<meta name="robots" content="noindex">

@@ -2,7 +2,7 @@
 	include "config.php"
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
 		<title>Cynthia & Rizal - RSVP Jasmine</title>
 		<meta name="robots" content="noindex">
