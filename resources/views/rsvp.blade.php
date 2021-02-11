@@ -154,9 +154,6 @@
 			</div>
 		</div>
 	</section>
-<!-- Button trigger modal -->
-
-<!-- Modal -->
 
 
 	<!-- Footer -->
