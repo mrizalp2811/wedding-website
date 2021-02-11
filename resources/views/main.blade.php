@@ -6,12 +6,13 @@
 <html lang="en">
 <head>
 		<title>Cynthia & Rizal - <?php echo $lang['title_home'] ?> </title>
+		<meta name="robots" content="noindex">
 		<meta charset=utf-8>
 		<meta name=description content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:title" content="Cynthia & Rizal | #bahagiabersama" />
 		<meta property="og:description" content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:image" content="assets/img/ogimage-cynthia-rizal.jpg"/>
-		<meta property="og:url" content="https://www.cynthia-rizal.com/main" />
+		<meta property="og:url" content="https://cynthia-rizal.com/main" />
 		<meta name=viewport content="width=device-width, initial-scale=1">
 		<!-- Styles -->
 		<link rel="stylesheet" type="text/css" href="assets/css/vendor/bootstrap.min.css">
@@ -60,9 +61,12 @@
 						</div>
 					</li>
 					<li class="nav-item d-flex">
-						<a href="/main?lang=id" class="flag flag-icon flag-icon-id" ></a>
-						&nbsp
-						<a href="/main?lang=en" class="flag flag-icon flag-icon-gb" style="margin-left: 20px;"></a>
+						<div style="padding-right: 5px;" >
+						<a href="/main?lang=id" class="flag flag-icon flag-icon-id"></a>
+						</div>
+						<div style="padding-left: 5px; border-left: 1px solid white;">
+						<a href="/main?lang=en" class="flag flag-icon flag-icon-gb"></a>
+						</div>
 					</li>
 					<li class="nav-item ml-lg-4 d-lg-none">
 						<span class="nav-link">&copy; Cynthia and Rizal 2021.</span>
@@ -177,7 +181,7 @@
 							<div class="col-md-6 text-left">
 								<h3 class="accordion__item-subheading"><?php echo $lang['accordion_subheading']?></h3>
 								<p class="d-flex align-items-center"><i class="fa fa-2x fa-map-marker align-middle pr-1"></i>Harris Hotel & Convention Ciumbuleuit Bandung</p>
-								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>17:00 - 21:00, Feb 28, 2021 </p>
+								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>16:30 - 18:30, Feb 28, 2021 </p>
 								<div class="btn btn-outline-dark rounded-0 px-2 py-1"><?php echo $lang['view_map']?></div>
 							</div>
 						</div>
@@ -248,21 +252,14 @@
 							<img class="rounded-circle m-auto" src="assets/img/ipir-1.jpg" alt="slider">
 						</div>
 						<h4 class="wishes__title font-weight-bold">Firdaus Nutrihadi</h4>
-						<p class="mx-auto">"With warm congratulations to a very special pair. May you always find in each other the love, laughter and happiness that only partners in life share!"</p>
+						<p class="mx-auto">"<?php echo $lang['firdaus-wishes']?>"</p>
 					</div>
 					<div class="slider__item">
 						<div class="wishes__person">
 							<img class="rounded-circle m-auto" src="assets/img/tama.jpg" alt="slider">
 						</div>
 						<h4 class="wishes__title font-weight-bold">Riztama Prawita</h4>
-						<p class="mx-auto">"True love stories never end! Happy wedding day and may there be many more chapters in the wonderful story of your love for one another."</p>
-					</div>
-					<div class="slider__item">
-						<div class="wishes__person">
-							<img class="rounded-circle m-auto" src="assets/img/person3.jpg" alt="slider">
-						</div>
-						<h4 class="wishes__title font-weight-bold">John Colen</h4>
-						<p class="mx-auto">"A wedding wish for two special person: love is best when shared by two. You know that together you are stronger, together you are one. Have a wonderful married life!"</p>
+						<p class="mx-auto">"<?php echo $lang['riztama-wishes']?>"</p>
 					</div>
 				</div>
 			</div>
@@ -298,7 +295,7 @@
 					<p class="text-justify"><?php echo $lang['info-rizal']?></p>
 				</div>
 			</div>
-			<div class="copyright text-center">&copy; Copyright 2021 by <b>Cynthia</b> & <b>Rizal</b>. All right Reserved.</div>
+			<div class="copyright text-center">&copy; Copyright 2021 by <b>Cynthia</b> & <b>Rizal</b></br>All right Reserved.</div>
 		</div>
 	</footer>
 	<script src="assets/js/vendor/jquery.min.js" type="text/javascript"></script>
