@@ -2,15 +2,16 @@
 	include "config.php"
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
 		<title>Cynthia & Rizal - RSVP Pengajian</title>
+		<meta name="robots" content="noindex">
 		<meta charset=utf-8>
 		<meta name=description content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:title" content="Cynthia & Rizal | #bahagiabersama" />
 		<meta property="og:description" content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:image" content="assets/img/ogimage-cynthia-rizal.jpg"/>
-		<meta property="og:url" content="https://www.cynthia-rizal.com/rsvp-pengajian" />
+		<meta property="og:url" content="https://cynthia-rizal.com/rsvp-pengajian" />
 		<meta name=viewport content="width=device-width, initial-scale=1">
 		<meta name="csrf-token" content="{{ csrf_token() }}">
 		<!-- Styles -->
@@ -53,10 +54,23 @@
 					<li class="nav-item">
 						<a class="nav-link page-scroll" href="/main#gallery"><?php echo $lang['gallery'] ?></a>
 					</li>
-					<li class="nav-item d-flex ml-lg-4">
-						<a href="/rsvp?lang=id" class="flag flag-icon flag-icon-id" ></a>
-						&nbsp
-						<a href="/rsvp?lang=en" class="flag flag-icon flag-icon-gb" style="margin-left: 20px;"></a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<?php echo $lang['RSVP'] ?>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						  <a class="dropdown-item" href="/rsvp">Rose</a>
+						  <a class="dropdown-item" href="/rsvp-jasmine">Jasmine</a>
+						  <a class="dropdown-item" href="/rsvp-pengajian">Pengajian</a>
+						</div>
+					</li>
+					<li class="nav-item d-flex">
+						<div style="padding-right: 5px;" >
+						<a href="/rsvp-pengajian?lang=id" class="flag flag-icon flag-icon-id"></a>
+						</div>
+						<div style="padding-left: 5px; border-left: 1px solid white;">
+						<a href="/rsvp-pengajian?lang=en" class="flag flag-icon flag-icon-gb"></a>
+						</div>
 					</li>
 					<li class="nav-item ml-lg-4 d-lg-none">
 						<span class="nav-link">&copy; Cynthia and Rizal 2021.</span>

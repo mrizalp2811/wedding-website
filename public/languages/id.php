@@ -43,6 +43,7 @@
       "rsvp-thanks-header" => "Terima kasih!",
       "rsvp-thanks-body" => "Terima kasih, telah mengisi form kehadiran. Kami berharap, Anda dapat merayakan bersama kami di hari spesial kami.",
       "rsvp-continue-button" => "Lanjutkan ke Website",
-      
+      "firdaus-wishes" => "Akhirnya setelah sekian lama dengan hal yang tidak pasti XD. Selamat Be, semoga bahagia selalu!",
+      "riztama-wishes" => "Welcome to the jungle Bro. Jangan lupa selalu makan DDS, biar sehat dan bugar selalu XD",
   );
 ?>

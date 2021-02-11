@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 	
 <head>
 		<title>Cynthia & Rizal - Pilih Bahasa</title>
+		<meta name="robots" content="noindex">
 		<meta charset=utf-8>
 		<meta name=description content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:title" content="Cynthia & Rizal | #bahagiabersama" />
 		<meta property="og:description" content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:image" content="assets/img/ogimage-cynthia-rizal.jpg"/>
-		<meta property="og:url" content="https://www.cynthia-rizal.com" />
+		<meta property="og:url" content="https://cynthia-rizal.com" />
 		<meta name=viewport content="width=device-width, initial-scale=1">
 		<!-- Styles -->
 		<link rel="stylesheet" type="text/css" href="assets/css/vendor/bootstrap.min.css">
