@@ -75,7 +75,7 @@ class BulkSmsController extends Controller
         $numbers_in_arrays = explode( ',' , $request->input( 'phone' ) );
         $phone_number = preg_replace('/^62|^0/','+62', $numbers_in_arrays);
 
-        $message = 'Halo ' . $name . '. Terima kasih telah melakukan RSVP Pengajian Pernikahan Cynthia & Rizal. Link QR Code Anda adalah ' . $input ;
+        $message = 'Halo ' . $name . '. Terima kasih telah melakukan RSVP Pengajian menjelang Pernikahan Cynthia & Rizal. Link QR Code Anda adalah ' . $input ;
         $count = 0;
 
            foreach( $phone_number as $number )
