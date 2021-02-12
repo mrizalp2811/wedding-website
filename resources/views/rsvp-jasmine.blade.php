@@ -10,7 +10,9 @@
 		<meta name=description content="Selamat datang di halaman konfirmasi kehadiran (Jasmine) pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:title" content="Cynthia & Rizal | RSVP Jasmine" />
 		<meta property="og:description" content="Selamat datang di halaman konfirmasi kehadiran (Jasmine) pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
-		<meta property="og:image" content="assets/img/ogimage-cynthia-rizal.jpg"/>
+		<meta property="og:image" content="assets/img/ogimage-cynthia-rizal.png"/>
+		<meta property="og:image:width" content="300" />
+		<meta property="og:image:height" content="300" />
 		<meta property="og:url" content="https://cynthia-rizal.com/rsvp-jasmine" />
 		<meta name=viewport content="width=device-width, initial-scale=1">
 		<meta name="csrf-token" content="{{ csrf_token() }}">
