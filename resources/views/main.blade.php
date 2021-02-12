@@ -29,7 +29,7 @@
 <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="100">
 	<nav id="navbar" class="navbar navbar-expand-lg fixed-top p-0 text-white onscroll">
 		<div class="d-lg-flex w-100 align-items-start">
-			<a class="navbar-brand text-primary" href="#">
+			<a class="navbar-brand text-primary" href="#top">
 				<img class="d-none d-lg-block navbar-brand__img" src="assets/img/logo-type-3-05.png" alt="logo">
 				<img class="d-lg-none navbar-brand__img" src="assets/img/logotype-03-05-05.png" alt="logo">
 			</a>
@@ -182,7 +182,9 @@
 								<h3 class="accordion__item-subheading"><?php echo $lang['accordion_subheading']?></h3>
 								<p class="d-flex align-items-center"><i class="fa fa-2x fa-map-marker align-middle pr-1"></i>Harris Hotel & Convention Ciumbuleuit Bandung</p>
 								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>10:00 - 12:00 WIB & 16:30 - 18:30 WIB, Feb 28, 2021 </p>
-								<div class="btn btn-outline-dark rounded-0 px-2 py-1"><?php echo $lang['view_map']?></div>
+								<a style="display: block;" href="https://g.page/HARRISCiumbuleuit?share">
+									<div class="btn btn-outline-dark rounded-0 px-2 py-1"><?php echo $lang['view_map']?></div>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -295,7 +297,7 @@
 					<p class="text-justify"><?php echo $lang['info-rizal']?></p>
 				</div>
 			</div>
-			<div class="copyright text-center">&copy; Copyright 2021 by <b>Cynthia</b> & <b>Rizal</b></br>All right Reserved.</div>
+			<div class="copyright text-center">&copy; Copyright 2021 by <b>Cynthia</b> & <b>Rizal</b>.</br>All right Reserved.</div>
 		</div>
 	</footer>
 	<script src="assets/js/vendor/jquery.min.js" type="text/javascript"></script>

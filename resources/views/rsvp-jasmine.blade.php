@@ -7,9 +7,9 @@
 		<title>Cynthia & Rizal - RSVP Jasmine</title>
 		<meta name="robots" content="noindex">
 		<meta charset=utf-8>
-		<meta name=description content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
-		<meta property="og:title" content="Cynthia & Rizal | #bahagiabersama" />
-		<meta property="og:description" content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
+		<meta name=description content="Selamat datang di halaman konfirmasi kehadiran (Jasmine) pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
+		<meta property="og:title" content="Cynthia & Rizal | RSVP Jasmine" />
+		<meta property="og:description" content="Selamat datang di halaman konfirmasi kehadiran (Jasmine) pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:image" content="assets/img/ogimage-cynthia-rizal.jpg"/>
 		<meta property="og:url" content="https://cynthia-rizal.com/rsvp-jasmine" />
 		<meta name=viewport content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@
 	<!-- Navigation -->
 	<nav id="navbar" class="navbar navbar-expand-lg fixed-top p-0 text-white onscroll">
 		<div class="d-lg-flex w-100 align-items-start">
-			<a class="navbar-brand text-primary" href="#">
+			<a class="navbar-brand text-primary" href="/main">
 				<img class="d-none d-lg-block navbar-brand__img" src="assets/img/logo-type-3-05.png" alt="logo">
 				<img class="d-lg-none navbar-brand__img" src="assets/img/logotype-03-05-05.png" alt="logo">
 			</a>
