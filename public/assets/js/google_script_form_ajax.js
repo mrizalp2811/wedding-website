@@ -34,7 +34,7 @@ $("#rsvp-form").on("submit", function(e) {
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                   },
-                url:('/rsvp'),
+                url:('/rsvp-rose'),
                 type: 'POST',
                 data: {phone : phne, name : nme, qr_code: urlqr, confirmation: cnfrm},
                 success: function () {
