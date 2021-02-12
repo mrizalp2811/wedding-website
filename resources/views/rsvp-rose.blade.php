@@ -11,7 +11,7 @@
 		<meta property="og:title" content="Cynthia & Rizal | RSVP Rose" />
 		<meta property="og:description" content="Selamat datang di halaman konfirmasi kehadiran (Rose) pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:image" content="assets/img/ogimage-cynthia-rizal.jpg"/>
-		<meta property="og:url" content="https://cynthia-rizal.com/rsvp" />
+		<meta property="og:url" content="https://cynthia-rizal.com/rsvp-rose" />
 		<meta name=viewport content="width=device-width, initial-scale=1">
 		<meta name="csrf-token" content="{{ csrf_token() }}">
 		<!-- Styles -->
