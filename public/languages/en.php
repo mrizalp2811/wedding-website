@@ -41,10 +41,11 @@
       "rsvp-guests-2" => "2 Person",
       "rsvp-send" => "Send",
       "rsvp-thanks-header" => "Thank you!",
-      "rsvp-thanks-body" => "Thank you, for filling the attendance form. We hope, you can celebrate together with us on our special day.",
+      "rsvp-thanks-body" => "Thank you, for filling the attendance form. If you choose come, We have already sent you an SMS containing a QR Code link that will be brought when you come to the event. We hope, you can celebrate together with us on our special day.",
       "rsvp-continue-button" => "Continue to Website",
       "firdaus-wishes" => "Finally after all this time with uncertain things XD. Congratulations Be, I wish you always happy!",
       "riztama-wishes" => "Welcome to the jungle Bro. Don't forget to always eat DDS, so that you are always healthy and fit XD",
+      "about-title" => "About Them",
       
   );
 ?>

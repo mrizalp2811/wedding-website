@@ -59,17 +59,17 @@
 							<?php echo $lang['RSVP'] ?>
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						  <a class="dropdown-item" href="/rsvp">Rose</a>
+						  <a class="dropdown-item" href="/rsvp-rose">Rose</a>
 						  <a class="dropdown-item" href="/rsvp-jasmine">Jasmine</a>
 						  <a class="dropdown-item" href="/rsvp-pengajian">Pengajian</a>
 						</div>
 					</li>
 					<li class="nav-item d-flex">
 						<div style="padding-right: 5px;" >
-						<a href="/rsvp?lang=id" class="flag flag-icon flag-icon-id"></a>
+						<a href="/rsvp-rose?lang=id" class="flag flag-icon flag-icon-id"></a>
 						</div>
 						<div style="padding-left: 5px; border-left: 1px solid white;">
-						<a href="/rsvp?lang=en" class="flag flag-icon flag-icon-gb"></a>
+						<a href="/rsvp-rose?lang=en" class="flag flag-icon flag-icon-gb"></a>
 						</div>
 					</li>
 					<li class="nav-item ml-lg-4 d-lg-none">
@@ -86,7 +86,7 @@
 					<img src="assets/img/rsvp-flower.png" class="parallax" alt="flower">
 				</div>
 				<div class="col-sm-12 col-md-8 align-self-center">
-					<h2 class="title"><?php echo $lang['rsvp-title'] ?></h2>
+					<h2 class="title"><?php echo $lang['rsvp-title'] ?> (Rose)</h2>
 					<h6 class="text-uppercase font-weight-bold mb-0"><?php echo $lang['rsvp-subheader'] ?></h6>
 
 					<form id="rsvp-form" action='' method="post" >

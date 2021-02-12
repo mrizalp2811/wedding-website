@@ -55,7 +55,7 @@
 							<?php echo $lang['RSVP'] ?>
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						  <a class="dropdown-item" href="/rsvp">Rose</a>
+						  <a class="dropdown-item" href="/rsvp-rose">Rose</a>
 						  <a class="dropdown-item" href="/rsvp-jasmine">Jasmine</a>
 						  <a class="dropdown-item" href="/rsvp-pengajian">Pengajian</a>
 						</div>
@@ -165,7 +165,7 @@
 							<div class="col-md-6 text-left">
 								<h3 class="accordion__item-subheading"><?php echo $lang['accordion_subheading']?></h3>
 								<p class="d-flex align-items-center"><i class="fa fa-2x fa-map-marker align-middle pr-1"></i>Harris Hotel & Convention Ciumbuleuit Bandung</p>
-								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>08:00 - 09:00, Feb 28, 2021 </p>
+								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>08:00 - 09:00 WIB, Feb 28, 2021 </p>
 								<a style="display: block;" href="https://g.page/HARRISCiumbuleuit?share">
 									<div class="btn btn-outline-dark rounded-0 px-2 py-1"><?php echo $lang['view_map']?></div>
 								</a>
@@ -181,7 +181,7 @@
 							<div class="col-md-6 text-left">
 								<h3 class="accordion__item-subheading"><?php echo $lang['accordion_subheading']?></h3>
 								<p class="d-flex align-items-center"><i class="fa fa-2x fa-map-marker align-middle pr-1"></i>Harris Hotel & Convention Ciumbuleuit Bandung</p>
-								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>16:30 - 18:30, Feb 28, 2021 </p>
+								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>10:00 - 12:00 WIB & 16:30 - 18:30 WIB, Feb 28, 2021 </p>
 								<div class="btn btn-outline-dark rounded-0 px-2 py-1"><?php echo $lang['view_map']?></div>
 							</div>
 						</div>
@@ -196,7 +196,7 @@
 					</div>
 					<div class="col-md-6 event__info-item">
 						<h6 class="event__info-header font-weight-bold"><?php echo $lang['where-stay-header']?></h6>
-						<p>Hotel, Motel</p>
+						<p>Hotel, Villa</p>
 						<p><?php echo $lang['where-stay-body']?></p>
 					</div>
 				</div>
@@ -271,7 +271,7 @@
 	<footer class="section text-center">
 		<div class="container text-white position-relative">
 			<div class="footer__title">
-				<h1 class="title ">About Them</h1>
+				<h1 class="title "><?php echo $lang['about-title']?></h1>
 			</div>
 			<div class="row pb-4">
 				<div class="col-md-6 text-center mt-3">

@@ -59,7 +59,7 @@
 							<?php echo $lang['RSVP'] ?>
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						  <a class="dropdown-item" href="/rsvp">Rose</a>
+						  <a class="dropdown-item" href="/rsvp-rose">Rose</a>
 						  <a class="dropdown-item" href="/rsvp-jasmine">Jasmine</a>
 						  <a class="dropdown-item" href="/rsvp-pengajian">Pengajian</a>
 						</div>
@@ -86,7 +86,7 @@
 					<img src="assets/img/rsvp-flower.png" class="parallax" alt="flower">
 				</div>
 				<div class="col-sm-12 col-md-8 align-self-center">
-					<h2 class="title"><?php echo $lang['rsvp-title'] ?></h2>
+					<h2 class="title"><?php echo $lang['rsvp-title'] ?> (Pengajian)</h2>
 					<h6 class="text-uppercase font-weight-bold mb-0"><?php echo $lang['rsvp-subheader'] ?></h6>
 
 					<form id="rsvp-form" action='' method="post" >

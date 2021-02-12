@@ -21,8 +21,8 @@ Route::get('/main', function () {
     return view('main');
 });
 
-Route::view('/rsvp', 'rsvp');
-Route::post('/rsvp', 'App\Http\Controllers\BulkSmsController@sendSms');
+Route::view('/rsvp-rose', 'rsvp-rose');
+Route::post('/rsvp-rose', 'App\Http\Controllers\BulkSmsController@sendSms');
 
 Route::view('/rsvp-pengajian', 'rsvp-pengajian');
 Route::post('/rsvp-pengajian', 'App\Http\Controllers\BulkSmsController@sendSmsPengajian');
