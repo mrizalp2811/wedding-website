@@ -10,9 +10,9 @@
 		<meta name=description content="Selamat datang di halaman konfirmasi kehadiran (Jasmine) pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:title" content="Cynthia & Rizal | RSVP Jasmine" />
 		<meta property="og:description" content="Selamat datang di halaman konfirmasi kehadiran (Jasmine) pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
-		<meta property="og:image" itemprop="image" content="assets/img/ogimage-cynthia-rizal.png"/>
+		<meta property="og:image" itemprop="image" content="assets/img/ogimage-cynthiarizal.png"/>
 		<meta property="og:image:width" content="300" />
-		<meta property="og:image:height" content="300" />
+		<meta property="og:image:height" content="200" />
 		<meta property="og:url" content="https://cynthia-rizal.com/rsvp-jasmine" />
 		<meta name=viewport content="width=device-width, initial-scale=1">
 		<meta name="csrf-token" content="{{ csrf_token() }}">
@@ -148,6 +148,17 @@
 									<h4><?php echo $lang['rsvp-thanks-header'] ?></h4>	
 									<p><?php echo $lang['rsvp-thanks-body'] ?></p>
 									<a class="btn btn-outline-dark rounded-0 py-1 font-weight-bold" href="/main"><span><?php echo $lang['rsvp-continue-button'] ?></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="errorModal" class="modal fade">
+						<div class="modal-dialog modal-confirm modal-dialog-centered">
+							<div class="modal-content background-modal">
+								<div class="modal-body text-center" style="padding: 30px;">
+									<h4><?php echo $lang['rsvp-error-header'] ?></h4>	
+									<p><?php echo $lang['rsvp-error-body'] ?></p>
+									<a class="btn btn-outline-dark rounded-0 px-3 py-1 font-weight-bold" href="/rsvp-jasmine"><span><?php echo $lang['rsvp-error-button'] ?></span></a>
 								</div>
 							</div>
 						</div>

@@ -11,9 +11,9 @@
 		<meta name=description content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:title" content="Cynthia & Rizal | #bahagiabersama" />
 		<meta property="og:description" content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
-		<meta property="og:image" itemprop="image" content="assets/img/ogimage-cynthia-rizal.png"/>
+		<meta property="og:image" itemprop="image" content="assets/img/ogimage-cynthiarizal.png"/>
 		<meta property="og:image:width" content="300" />
-		<meta property="og:image:height" content="300" />
+		<meta property="og:image:height" content="200" />
 		<meta property="og:url" content="https://cynthia-rizal.com/main" />
 		<meta name=viewport content="width=device-width, initial-scale=1">
 		<!-- Styles -->
@@ -31,7 +31,7 @@
 <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="100">
 	<nav id="navbar" class="navbar navbar-expand-lg fixed-top p-0 text-white onscroll">
 		<div class="d-lg-flex w-100 align-items-start">
-			<a class="navbar-brand text-primary" href="#top">
+			<a class="navbar-brand text-primary page-scroll" href="#top">
 				<img class="d-none d-lg-block navbar-brand__img" src="assets/img/logo-type-3-05.png" alt="logo">
 				<img class="d-lg-none navbar-brand__img" src="assets/img/logotype-03-05-05.png" alt="logo">
 			</a>
@@ -253,10 +253,24 @@
 				<div class="slick slick-wishes mb-0">
 					<div class="slider__item">
 						<div class="wishes__person">
+							<img class="rounded-circle m-auto" src="assets/img/putri.jpg" alt="slider">
+						</div>
+						<h4 class="wishes__title font-weight-bold">Marita Putri Nirbaya</h4>
+						<p class="mx-auto">"<?php echo $lang['putri-wishes']?>"</p>
+					</div>
+					<div class="slider__item">
+						<div class="wishes__person">
 							<img class="rounded-circle m-auto" src="assets/img/ipir-1.jpg" alt="slider">
 						</div>
 						<h4 class="wishes__title font-weight-bold">Firdaus Nutrihadi</h4>
 						<p class="mx-auto">"<?php echo $lang['firdaus-wishes']?>"</p>
+					</div>
+					<div class="slider__item">
+						<div class="wishes__person">
+							<img class="rounded-circle m-auto" src="assets/img/sikka.jpg" alt="slider">
+						</div>
+						<h4 class="wishes__title font-weight-bold">Sikka Roosdiantie</h4>
+						<p class="mx-auto">"<?php echo $lang['sikka-wishes']?>"</p>
 					</div>
 					<div class="slider__item">
 						<div class="wishes__person">

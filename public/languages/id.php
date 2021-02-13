@@ -41,10 +41,15 @@
       "rsvp-guests-2" => "2 Orang",
       "rsvp-send" => "Kirim",
       "rsvp-thanks-header" => "Terima kasih!",
-      "rsvp-thanks-body" => "Terima kasih, telah mengisi form kehadiran. Jika anda memilih hadir, kami telah mengirim SMS kepada anda berisi Link QR Code yang akan dibawa pada saat anda hadir ke acara. Kami berharap, Anda dapat merayakan bersama kami di hari spesial kami.",
+      "rsvp-thanks-body" => "Terima kasih, telah mengisi form kehadiran. Jika anda memilih hadir, kami telah mengirim SMS kepada Anda berisi Link QR Code yang akan dibawa pada saat Anda hadir ke acara. Kami berharap, Anda dapat merayakan bersama kami di hari spesial kami.",
       "rsvp-continue-button" => "Lanjutkan ke Website",
       "firdaus-wishes" => "Akhirnya setelah sekian lama dengan hal yang tidak pasti XD. Selamat Be, semoga bahagia selalu!",
       "riztama-wishes" => "Welcome to the jungle Bro. Jangan lupa selalu makan DDS, biar sehat dan bugar selalu XD",
+      "sikka-wishes" => "Congratulations on making this step together! May love will always see you both through all life’s ups and downs and happiness shines through your marriage life. So happy that you have found each other a perfect person to share your days with",
+      "putri-wishes" => "My dearest best friend and partner in crime 😝, finally you’re tying the knot! soo happy for you! Wishing you both lots of joy and happiness! selamat pacaran halal dan menua bersama!",
       "about-title" => "Tentang Mereka",
+      "rsvp-error-header" => "Maaf!",
+      "rsvp-error-body" => "Mohon masukkan nomor handphone Anda dengan benar. Mohon maaf atas ketidaknyamanannya.",
+      "rsvp-error-button" => "Ulangi",
   );
 ?>
