@@ -11,9 +11,9 @@
 		<meta name=description content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:title" content="Cynthia & Rizal | #bahagiabersama" />
 		<meta property="og:description" content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
-		<meta property="og:image" itemprop="image" content="assets/img/ogimage-cynthia-rizal.png"/>
+		<meta property="og:image" itemprop="image" content="assets/img/ogimage-cynthiarizal.png"/>
 		<meta property="og:image:width" content="300" />
-		<meta property="og:image:height" content="300" />
+		<meta property="og:image:height" content="200" />
 		<meta property="og:url" content="https://cynthia-rizal.com" />
 		<meta name=viewport content="width=device-width, initial-scale=1">
 		<!-- Styles -->

@@ -1498,3 +1498,9 @@ footer:before {
 .background-modal {
 	background: url(../img/rsvp-flowers-r.png), #fff;
 }
+
+input:read-only {
+    border-color: var(--gray-lighter) !important;
+    color: var(--gray);
+    cursor: not-allowed;
+}

@@ -46,6 +46,9 @@
       "firdaus-wishes" => "Finally after all this time with uncertain things XD. Congratulations Be, I wish you always happy!",
       "riztama-wishes" => "Welcome to the jungle Bro. Don't forget to always eat DDS, so that you are always healthy and fit XD",
       "about-title" => "About Them",
+      "rsvp-error-header" => "Sorry!",
+      "rsvp-error-body" => "Please enter your correct mobile number. Sorry for the inconvenience.",
+      "rsvp-error-button" => "Reload",
       
   );
 ?>
