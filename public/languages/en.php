@@ -45,6 +45,8 @@
       "rsvp-continue-button" => "Continue to Website",
       "firdaus-wishes" => "Finally after all this time with uncertain things XD. Congratulations Be, I wish you always happy!",
       "riztama-wishes" => "Welcome to the jungle Bro. Don't forget to always eat DDS, so that you are always healthy and fit XD",
+      "sikka-wishes" => "Congratulations on making this step together! May love will always see you both through all life’s ups and downs and happiness shines through your marriage life. So happy that you have found each other a perfect person to share your days with",
+      "putri-wishes" => "My dearest best friend and partner in crime 😝, finally you’re tying the knot! soo happy for you! Wishing you both lots of joy and happiness! selamat pacaran halal dan menua bersama!",
       "about-title" => "About Them",
       "rsvp-error-header" => "Sorry!",
       "rsvp-error-body" => "Please enter your correct mobile number. Sorry for the inconvenience.",

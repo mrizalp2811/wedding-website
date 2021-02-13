@@ -253,10 +253,24 @@
 				<div class="slick slick-wishes mb-0">
 					<div class="slider__item">
 						<div class="wishes__person">
+							<img class="rounded-circle m-auto" src="assets/img/putri.jpg" alt="slider">
+						</div>
+						<h4 class="wishes__title font-weight-bold">Marita Putri Nirbaya</h4>
+						<p class="mx-auto">"<?php echo $lang['putri-wishes']?>"</p>
+					</div>
+					<div class="slider__item">
+						<div class="wishes__person">
 							<img class="rounded-circle m-auto" src="assets/img/ipir-1.jpg" alt="slider">
 						</div>
 						<h4 class="wishes__title font-weight-bold">Firdaus Nutrihadi</h4>
 						<p class="mx-auto">"<?php echo $lang['firdaus-wishes']?>"</p>
+					</div>
+					<div class="slider__item">
+						<div class="wishes__person">
+							<img class="rounded-circle m-auto" src="assets/img/sikka.jpg" alt="slider">
+						</div>
+						<h4 class="wishes__title font-weight-bold">Sikka Roosdiantie</h4>
+						<p class="mx-auto">"<?php echo $lang['sikka-wishes']?>"</p>
 					</div>
 					<div class="slider__item">
 						<div class="wishes__person">
