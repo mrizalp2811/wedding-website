@@ -59,6 +59,9 @@ xmlns:fb="http://ogp.me/ns/fb#">
 						<a class="nav-link page-scroll" href="/main#events"><?php echo $lang['events'] ?></a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link page-scroll" href="/main#covid">Covid-19</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link page-scroll" href="/main#gallery"><?php echo $lang['gallery'] ?></a>
 					</li>
 					<li class="nav-item dropdown">

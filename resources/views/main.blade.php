@@ -55,6 +55,9 @@ xmlns:fb="http://ogp.me/ns/fb#">
 						<a class="nav-link page-scroll" href="#events"><?php echo $lang['events'] ?></a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link page-scroll" href="#covid">Covid-19</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link page-scroll" href="#gallery"><?php echo $lang['gallery'] ?></a>
 					</li>
 					<li class="nav-item dropdown">
@@ -149,7 +152,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 		</div>
 	</section>
 	<!-- Section Events -->
-	<section id="events" class="events section text-center">
+	<section id="events" class="events section text-center" style="padding-bottom: 2rem;">
 		<div class="container">
 			<h1 class="title"><?php echo $lang['title_events']?></h1>
 			<p class="subtitle mx-auto"><?php echo $lang['title_subevents']?></p>
@@ -197,21 +200,66 @@ xmlns:fb="http://ogp.me/ns/fb#">
 					</div>
 				</div>
 			</div>
-			<div class="events__info">
-				<div class="row text-left">
-					<div class="col-md-6 event__info-item">
-						<h6 class="event__info-header font-weight-bold"><?php echo $lang['getting-there-header']?></h6>
-						<p><?php echo $lang['getting-there-body']?></p>
-					</div>
-					<div class="col-md-6 event__info-item">
-						<h6 class="event__info-header font-weight-bold"><?php echo $lang['where-stay-header']?></h6>
-						<p>Hotel, Villa</p>
-						<p><?php echo $lang['where-stay-body']?></p>
-					</div>
+		</div>
+	</section>
+	<section id="covid" class="section text-center" style="padding-top: 0rem;">
+	<div class="container">
+		<h1 class="title"><?php echo $lang['covid-header']?></h1>
+		<p class="subtitle m-auto"><?php echo $lang['covid-subheader']?></p>
+		
+		<div class="container mt-3">
+			<hr class="hr-text" data-content="AND">
+			<h5 class="mt-2 font-weight-bold text-left" style="text-transform: uppercase;"><?php echo $lang['covid-expect-us']?></h5>
+			<div class="row text-left">
+				<div class="col-md-3 event__info-item">
+					<img class="icon-health m-auto" src="assets/img/guest-list.png">
+					<h6 class="covid__info-header font-weight-bold"><?php echo $lang['covid-guests-header']?></h6>
+					<p><?php echo $lang['covid-guests-body']?></p>
+				</div>
+				<div class="col-md-3 event__info-item">
+					<img class="icon-health m-auto" src="assets/img/qr-scan.png">
+					<h6 class="covid__info-header font-weight-bold"><?php echo $lang['covid-qrcode-header']?></h6>
+					<p><?php echo $lang['covid-qrcode-body']?></p>
+				</div>
+				<div class="col-md-3 event__info-item">
+					<img class="icon-health m-auto" src="assets/img/food-delivery.png">
+					<h6 class="covid__info-header font-weight-bold"><?php echo $lang['covid-food-header']?></h6>
+					<p><?php echo $lang['covid-food-body']?></p>
+				</div>
+				<div class="col-md-3 event__info-item">
+					<img class="icon-health m-auto" src="assets/img/measure-distance.png">
+					<h6 class="covid__info-header font-weight-bold"><?php echo $lang['covid-distancing-header']?></h6>
+					<p><?php echo $lang['covid-distancing-body']?></p>
 				</div>
 			</div>
 		</div>
-	</section>
+
+		<div class="container">
+			<hr class="hr-text" data-content="AND">
+			<h5 class="mt-2 font-weight-bold text-left" style="text-transform: uppercase;"><?php echo $lang['covid-expect-you']?></h5>
+			<div class="row text-left">
+				<div class="col-md-4 event__info-item">
+					<img class="icon-health m-auto" src="assets/img/reservation.png">
+					<h6 class="covid__info-header font-weight-bold"><?php echo $lang['covid-rsvp-header']?></h6>
+					<p><?php echo $lang['covid-rsvp-body']?></p>
+				</div>
+				<div class="col-md-4 event__info-item">
+					<img class="icon-health m-auto" src="assets/img/face-protection.png">
+					<h6 class="covid__info-header font-weight-bold"><?php echo $lang['covid-mask-header']?></h6>
+					<p><?php echo $lang['covid-mask-body']?></p>
+				</div>
+				<div class="col-md-4 event__info-item">
+					<img class="icon-health m-auto" src="assets/img/social.png">
+					<h6 class="covid__info-header font-weight-bold"><?php echo $lang['covid-congregate-header']?></h6>
+					<p><?php echo $lang['covid-congregate-body']?></p>
+				</div>
+			</div>
+			<hr class="hr-text" data-content="AND">
+		</div>
+
+	</div>
+</section>
+
 	<!-- Section Gallery -->
 	<section id="gallery" class="gallery section text-center">
 		<div class="d-none d-lg-block gallery__flower-prlx-l position-absolute parallax">
