@@ -1504,3 +1504,12 @@ input:read-only {
     color: var(--gray);
     cursor: not-allowed;
 }
+
+.covid__info-header {
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+.icon-health {
+	padding-top: 30px;
+}
