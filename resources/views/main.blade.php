@@ -167,7 +167,7 @@
 							<div class="col-md-6 text-left">
 								<h3 class="accordion__item-subheading"><?php echo $lang['accordion_subheading']?></h3>
 								<p class="d-flex align-items-center"><i class="fa fa-2x fa-map-marker align-middle pr-1"></i>Harris Hotel & Convention Ciumbuleuit Bandung</p>
-								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>08:00 - 09:00 WIB, Feb 28, 2021 </p>
+								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>08:30 - 09:30 WIB, Feb 28, 2021 </p>
 								<a style="display: block;" href="https://g.page/HARRISCiumbuleuit?share">
 									<div class="btn btn-outline-dark rounded-0 px-2 py-1"><?php echo $lang['view_map']?></div>
 								</a>
@@ -183,7 +183,7 @@
 							<div class="col-md-6 text-left">
 								<h3 class="accordion__item-subheading"><?php echo $lang['accordion_subheading']?></h3>
 								<p class="d-flex align-items-center"><i class="fa fa-2x fa-map-marker align-middle pr-1"></i>Harris Hotel & Convention Ciumbuleuit Bandung</p>
-								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>10:00 - 12:00 WIB & 16:30 - 18:30 WIB, Feb 28, 2021 </p>
+								<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>10:30 - 12:30 WIB & 16:30 - 18:30 WIB, Feb 28, 2021 </p>
 								<a style="display: block;" href="https://g.page/HARRISCiumbuleuit?share">
 									<div class="btn btn-outline-dark rounded-0 px-2 py-1"><?php echo $lang['view_map']?></div>
 								</a>
