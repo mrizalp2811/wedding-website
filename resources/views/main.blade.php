@@ -74,7 +74,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 						<div style="padding-right: 5px;" >
 						<a href="/main?lang=id" class="flag flag-icon flag-icon-id"></a>
 						</div>
-						<div style="padding-left: 5px; border-left: 1px solid white;">
+						<div style=" padding-left: 5px; border-left: 1px solid white;">
 						<a href="/main?lang=en" class="flag flag-icon flag-icon-gb"></a>
 						</div>
 					</li>
@@ -83,7 +83,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 					</li>
 				</ul>
 			</div>
-		</div>
+		</div>	
 	</nav>
 	<div id="loader" class="loader">
 		<div id="my-svg">
@@ -117,7 +117,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 		</div>
 	</section>
 	<!-- Section Date -->
-	<section class="date-section section section--blue countdown text-center">
+	<section class="date-section section section--blue countdown text-center" data-spy="affix" data-offset-top="10">
 		<div class="container">
 			<div class="date-section__flowers m-auto">
 				<img src="assets/img/date-flowers.png" alt="flowers">
@@ -372,7 +372,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 	<script src="assets/js/vendor/jquery.min.js" type="text/javascript"></script>
 	<script src="assets/js/vendor/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="assets/js/vendor/popper.min.js" type="text/javascript"></script>
-	<script src="assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="assets/js/vendor/slick.min.js" type="text/javascript"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js" type="text/javascript"></script>
 	<script src="assets/js/vendor/circletype.min.js" type="text/javascript"></script>
