@@ -15,8 +15,6 @@ xmlns:fb="http://ogp.me/ns/fb#">
 		<meta property="og:type" content="website" />
 		<meta property="fb:app_id" content="215112263670925">
 		<meta property="og:image" itemprop="image" content="{{ url('/') }}/assets/img/ogimage-cynthiarizal-min.png"/>
-		<meta property="og:image:width" content="300" />
-		<meta property="og:image:height" content="200" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:url" content="https://cynthia-rizal.com/rsvp-pengajian" />
 		<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
