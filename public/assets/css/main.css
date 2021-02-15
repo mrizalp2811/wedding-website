@@ -1232,6 +1232,7 @@ input.search-field {
 
 .rsvp {
 	position: relative;
+	padding: 8.25rem 0;
 }
 
 .rsvp:after {
@@ -1517,9 +1518,7 @@ input:read-only {
 .alert.alert-server {
 	margin-bottom: 0;
 	border-radius: 0;
-	position: relative;
 	top: 73px;
-	z-index: 100;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1528,10 +1527,9 @@ input:read-only {
 		border-radius: 0;
 		top: 65px;
 	}
-}
 
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 9999 !important;
-  }
+	.rsvp 
+	{
+		padding: 10.25rem 0;
+	}
+}
