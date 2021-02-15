@@ -14,7 +14,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 		<meta property="og:description" content="Selamat datang di halaman konfirmasi kehadiran (Rose) pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:type" content="website" />
 		<meta property="fb:app_id" content="215112263670925">
-		<meta property="og:image" itemprop="image" content="https://cynthia-rizal.com/assets/img/ogimage-cynthiarizal-min.png"/>
+		<meta property="og:image" itemprop="image" content="https://cynthia-rizal.com/assets/img/ogimage-cynthia-rizal.png"/>
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:url" content="https://cynthia-rizal.com/rsvp-rose" />
 		<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
