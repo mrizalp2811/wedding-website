@@ -88,7 +88,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 			</div>
 		</div>
 	</nav>
-	<div class="alert alert-danger alert-server text-center" role="alert">
+	<div class="alert alert-danger alert-server fixed-top text-center" role="alert">
 		<button type="button" class="close" data-dismiss="alert">×</button>
 		<strong><?php echo $lang['covid-announcement'] ?></strong> <?php echo $lang['covid-due-to'] ?> <a href="/main#covid" class="alert-link"><?php echo $lang['covid-here'] ?></a>.
 	</div>
