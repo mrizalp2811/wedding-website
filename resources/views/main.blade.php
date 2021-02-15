@@ -14,7 +14,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 		<meta property="og:title" content="Cynthia & Rizal | #bahagiabersama" />
 		<meta property="og:description" content="Selamat datang di website pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="fb:app_id" content="215112263670925">
-		<meta property="og:image" itemprop="image" content="{{ url('/') }}/assets/img/ogimage-cynthiarizal.png"/>
+		<meta property="og:image" itemprop="image" content="{{ url('/') }}/assets/img/ogimage-cynthiarizal-min.png"/>
 		<meta property="og:image:width" content="300" />
 		<meta property="og:image:height" content="200" />
 		<meta property="og:image:type" content="image/png" />

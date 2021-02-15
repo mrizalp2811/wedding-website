@@ -68,7 +68,7 @@
       "covid-mask-header" => "WEAR MASK OR FACE SHIELD",
       "covid-mask-body" => "Attendees are required to wear masks or face shields when attending the event. Wearing a mask or face shield is an effort that is considered the most effective at preventing the spread of covid-19.",
       "covid-congregate-header" => "DO NOT CONGREGATE",
-      "covid-congregate-body" => "To support the 5M government program, attendees are prohibited from congregate when attending our wedding event",
+      "covid-congregate-body" => "To support the 5M government program, attendees are prohibited from congregate when attending our wedding.",
       "covid-announcement" => "Announcement!",
       "covid-due-to" => "Due to covid-19, you can read our wedding covid-19 protocol",
       "covid-here" => "here.",

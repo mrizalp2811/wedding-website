@@ -14,12 +14,12 @@ xmlns:fb="http://ogp.me/ns/fb#">
 		<meta property="og:description" content="Selamat datang di halaman konfirmasi kehadiran (Rose) pernikahan Cynthia dan Rizal. Kami berharap anda dapat bergabung dengan kami di hari spesial kami.">
 		<meta property="og:type" content="website" />
 		<meta property="fb:app_id" content="215112263670925">
-		<meta property="og:image" itemprop="image" content="{{ url('/') }}/assets/img/ogimage-cynthiarizal.png"/>
+		<meta property="og:image" itemprop="image" content="{{ url('/') }}/assets/img/ogimage-cynthiarizal-min.png"/>
 		<meta property="og:image:width" content="300" />
 		<meta property="og:image:height" content="200" />
 		<meta property="og:image:type" content="image/png" />
 		<meta property="og:url" content="https://cynthia-rizal.com/rsvp-rose" />
-		<meta name=viewport content="width=device-width, initial-scale=1">
+		<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
 		<meta name="csrf-token" content="{{ csrf_token() }}">
 		<!-- Styles -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -91,7 +91,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 	</nav>
 	<div class="alert alert-danger alert-server fixed-top text-center" role="alert">
 		<button type="button" class="close" data-dismiss="alert">×</button>
-		<strong><?php echo $lang['covid-announcement'] ?></strong> <?php echo $lang['covid-due-to'] ?> <a href="/main#covid" class="alert-link"><?php echo $lang['covid-here'] ?></a>.
+		<strong><?php echo $lang['covid-announcement'] ?></strong> <?php echo $lang['covid-due-to'] ?> <a href="/main#covid" class="alert-link"><?php echo $lang['covid-here'] ?></a>
 	</div>
     <section id="rsvp" class="rsvp section">
 		<div class="container">
@@ -100,8 +100,16 @@ xmlns:fb="http://ogp.me/ns/fb#">
 					<img src="assets/img/rsvp-flower.png" class="parallax" alt="flower">
 				</div>
 				<div class="col-sm-12 col-md-8 align-self-center">
-					<h2 class="title"><?php echo $lang['rsvp-title'] ?> (Rose)</h2>
-					<h6 class="text-uppercase font-weight-bold mb-0"><?php echo $lang['rsvp-subheader'] ?></h6>
+					<h2 class="title" style="margin-bottom: 10px;"><?php echo $lang['rsvp-title'] ?> (Rose)</h2>
+					<div class="row">
+						<div class="col-md-8 m-md-0">
+							<hr class="hr-text" data-content="AND">
+							<p class="d-flex align-items-center"><i class="fa fa-2x fa-map-marker align-middle pr-1"></i>Harris Hotel & Convention Ciumbuleuit Bandung</p>
+							<p class="d-flex align-items-center"><i class="fa fa-2x fa-clock-o align-middle pr-1"></i>10:30 - 12:30 WIB, Feb 28, 2021 </p>
+							<hr class="hr-text" data-content="AND">
+							<h6 class="text-uppercase font-weight-bold mb-0 mt-2"><?php echo $lang['rsvp-subheader'] ?></h6>
+						</div>
+					</div>
 
 					<form id="rsvp-form" action='' method="post" >
 						@csrf
@@ -113,7 +121,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 								</div>
 								<div class="form-group">
 									<label class="control-label" for="inputNumber"><?php echo $lang['rsvp-phone-header'] ?></label>
-									<input type="text" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" placeholder="e.g: 081xxxxxx" id="inputPhone" name="phone" autocomplete="off" required >
+									<input type="text" class="form-control" pattern="[0-9]*" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" placeholder="e.g: 081xxxxxx" id="inputPhone" name="phone" autocomplete="off" required >
 								</div>
 								<div class="form-group">
 									<label class="control-label" for="inputConfirm" style="margin-bottom: 15px;"><?php echo $lang['rsvp-confirm-header'] ?></label></br>

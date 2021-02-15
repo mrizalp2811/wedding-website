@@ -28,7 +28,7 @@
       "wishes-body" => "Kehadiran Anda di hari istimewa kami adalah hadiah terbesar untuk kami! Namun, jika Anda benar-benar ingin merayakan dengan sebuah hadiah, berkontribusi menulis harapan untuk kami akan sangat dihargai.",
       "info-cynthia" => "Cynthia adalah putri dari Bapak Eddy Subroto dan Ibu Emmy Subroto. Secara etnis dia adalah orang Jawa, tapi dia lahir dan besar di Bandung sehingga dia lebih mengerti bahasa Sunda daripada Jawa. Orang-orang sering mengiranya tidak ramah karena wajahnya, padahal dia adalah orang yang lumayan hangat dan konyol. Dia sangat suka kucing dan memiliki satu kucing kesayangannya berumur 11 tahun yang sudah dianggapnya seperti anak sendiri. Dia mengambil jurusan arsitektur ketika S1, lalu melanjutkan S2 jurusan administrasi bisnis.",
       "info-rizal" => "Rizal adalah putra dari Bapak Sofyan Hadi dan Ibu Susiawanti Ratna, berdarah campuran Madura dan Jawa yang lahir di Surabaya. Dia mempunyai sifat pembawaan yang tenang dan tidak tergesa-gesa, namun jika Anda sudah berteman dekat dengan Rizal, dia akan lebih kelihatan lucu dan supel. Dia sangat menyukai bermain games, mulai bermain games pada saat umur 5 tahun, dan juga pernah bermain games selama 12 jam nonstop XD. Dia melanjutkan kuliah di jurusan teknik informatika dan bekerja di salah satu badan usaha milik negara di Bandung.",
-      "rsvp-title" => "Kehadiran",
+      "rsvp-title" => "Konfirmasi Kehadiran",
       "rsvp-subheader" => "Akankah anda hadir?",
       "rsvp-name-header" => "Nama Anda",
       "rsvp-phone-header" => "Nomor handphone Anda",
