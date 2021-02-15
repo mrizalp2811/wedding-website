@@ -202,7 +202,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 			</div>
 		</div>
 	</section>
-	<section id="covid" class="section text-center" style="padding-top: 0rem;">
+	<section id="covid" class="covid section text-center" style="padding-top: 0rem;">
 	<div class="container">
 		<h1 class="title"><?php echo $lang['covid-header']?></h1>
 		<p class="subtitle m-auto"><?php echo $lang['covid-subheader']?></p>
