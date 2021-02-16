@@ -72,5 +72,6 @@
       "covid-announcement" => "Pengumuman!",
       "covid-due-to" => "Karena covid-19, Anda dapat membaca protokol covid-19 pernikahan kami",
       "covid-here" => "disini.",
+      "rsvp-info-qr" => "Link QR Code Anda akan dikirimkan melalui SMS.",
   );
 ?>

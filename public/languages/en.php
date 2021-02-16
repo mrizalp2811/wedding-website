@@ -72,6 +72,7 @@
       "covid-announcement" => "Announcement!",
       "covid-due-to" => "Due to covid-19, you can read our wedding covid-19 protocol",
       "covid-here" => "here.",
+      "rsvp-info-qr" => "Your QR Code link will be sent via SMS.",
       
   );
 ?>
