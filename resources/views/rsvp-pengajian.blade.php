@@ -121,6 +121,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 									<label class="control-label" for="inputNumber"><?php echo $lang['rsvp-phone-header'] ?></label>
 									<input type="text" class="form-control" pattern="[0-9]*" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" placeholder="e.g: 081xxxxxx" id="inputPhone" name="phone" autocomplete="off" required >
 								</div>
+								<small class="w-100"><strong>Info:</strong> <?php echo $lang['rsvp-info-qr'] ?></small>
 								<div class="form-group">
 									<label class="control-label" for="inputConfirm" style="margin-bottom: 15px;"><?php echo $lang['rsvp-confirm-header'] ?></label></br>
 									<input type="radio" id="yes" name="confirmation" value="yes" required>
@@ -177,6 +178,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
 			</div>
 		</div>
 	</section>
+	<div class="copyright text-center pb-2">&copy; Copyright 2021 by <b>Cynthia</b> & <b>Rizal</b>.</br>All right Reserved.</div>
 <!-- Button trigger modal -->
 
 <!-- Modal -->
