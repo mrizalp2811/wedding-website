@@ -44,7 +44,7 @@
       "rsvp-thanks-body" => "Terima kasih, telah mengisi form kehadiran. Jika anda memilih hadir, kami telah mengirim SMS kepada Anda berisikan link QR Code yang akan dipindai di meja registrasi pada saat Anda hadir ke acara. Kami berharap, Anda dapat merayakan bersama kami di hari spesial kami.",
       "rsvp-continue-button" => "Lanjutkan ke Website",
       "firdaus-wishes" => "Akhirnya setelah sekian lama dengan hal yang tidak pasti 😝. Selamat Be, semoga bahagia selalu!",
-      "riztama-wishes" => "Welcome to the jungle Bro. Jangan lupa selalu makan DDS, biar sehat dan bugar selalu 😝",
+      "riztama-wishes" => "Semoga dilancarken hingga hari yang ditunggu tiba. Semoga diberi kemudahan, kelancaran, keberkahan, keselamatan. karena kekurangan hanya milik kita dan kesempurnaan hanya milik Allah. kembali lagi di dorceeeeeeeeee 😝.",
       "sikka-wishes" => "Congratulations on making this step together! May love will always see you both through all life’s ups and downs and happiness shines through your marriage life. So happy that you have found each other a perfect person to share your days with",
       "putri-wishes" => "My dearest best friend and partner in crime 😝, finally you’re tying the knot! soo happy for you! Wishing you both lots of joy and happiness! selamat pacaran halal dan menua bersama!",
       "about-title" => "Tentang Kami",
